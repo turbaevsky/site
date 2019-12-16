@@ -86,11 +86,11 @@ card_content_time = [
     dbc.CardImg(src="/assets/images/time.jpeg", top=True),
     dbc.CardBody(
         [
-            html.H6("Time-series prediction and clasterisation", className="card-title"),
+            html.H6("Time-series prediction and clustering", className="card-title"),
             html.P(
                 "Out system also available to predict time-series, for example, energy or gas \
-                consumption to plan your business. Additionaly, we are able to identify the \
-                grouops of cunsumer to set the best tarif plans for them",
+                consumption to plan your business. Additionally, we are able to identify the \
+                groups of consumer to set the best tariff plans for them",
                 className="card-text",
             ),
             dbc.Button("Time-series", color="primary", href='/', disabled=True),
@@ -105,7 +105,7 @@ card_content_vision = [
         [
             html.H6("Computer Vision and Human Recognition", className="card-title"),
             html.P(
-                "We have devceloped a simple sysrtem to recognize humans at the CCTV. It will let \
+                "We have developed a simple system to recognize humans at the CCTV. It will let \
                 you save your time and make your CCTV system more effective. Try to upload your image \
                 and see if we will be able to recognize them. This is low-load system available to work \
                 even for microcomputers like Raspberry PI",
@@ -121,9 +121,9 @@ card_content_monitor = [
     dbc.CardImg(src="/assets/images/monitor2.jpeg", top=True),
     dbc.CardBody(
         [
-            html.H6("Online process monitoring", className="card-title"),
+            html.H6("On-line process monitoring", className="card-title"),
             html.P(
-                "Our system lets you to monitor yons of the parameters creating user-friendly \
+                "Our system lets you to monitor tons of the parameters creating user-friendly \
                 dashboard. It can include various parameters including numbers, images, levels etc.",
                 className="card-text",
             ),
@@ -139,9 +139,9 @@ card_content_online = [
         [
             html.H6("Natural Language Processing", className="card-title"),
             html.P(
-                "It is very similar to online process monitoring but more focused at news or tweet \
+                "It is very similar to on-line process monitoring but more focused at news or tweet \
                 monitoring to recognize trends and providing sentiment analysis. It looks useful for \
-                risk assessment, insuranse related business and online trading",
+                risk assessment, insurance related business and on-line trading",
                 className="card-text",
             ),
             dbc.Button("Try", color="success", href='/apps/sentiment'),
@@ -154,11 +154,11 @@ card_content_scrap = [
     dbc.CardImg(src="/assets/images/scrap.jpeg", top=True),
     dbc.CardBody(
         [
-            html.H6("Web scapping and processing", className="card-title"),
+            html.H6("Web scrapping and processing", className="card-title"),
             html.P(
                 "There are lot of data available in the Internet however very few of them are available \
                 in machine-readable format. Our project will help you to scrap all the data around the \
-                world to help your business to understand currect trends and tendencies and to increase \
+                world to help your business to understand current trends and tendencies and to increase \
                 your profit",
                 className="card-text",
             ),
@@ -174,11 +174,11 @@ card_content_reports = [
         [
             html.H6("Report creation", className="card-title"),
             html.P(
-                "It is quite similar to online monitoring and processing but more focused at the \
+                "It is quite similar to on-line monitoring and processing but more focused at the \
                 data processing to create printable reports. If you have lots of data which does not \
-                change very often it could be your choise to save hundreeds of hours for your staff. You \
-                can simply feed the sysytem of all your data and have a look at the final report. \
-                Of course, it will be used with the very modern Artificial Intellegence technology.",
+                change very often it could be your choice to save hundreds of hours for your staff. You \
+                can simply feed the system of all your data and have a look at the final report. \
+                Of course, it will be used with the very modern Artificial Intelligence technology.",
                 className="card-text",
             ),
             dbc.Button("Report example", color="success", href='/dash-financial-report/overview'),

@@ -67,11 +67,11 @@ body = dbc.Container(
                     html.H2("Predictions"),
                     html.P(
                         """
-                    There are few Machine Learning models presented there. You can make your choise to predict the 
-                    next value based on your or pleloaded data.
+                    There are few Machine Learning models presented there. You can make your choice to predict the 
+                    next value based on your or preloaded data.
                     You can put your data simply by dropping them into the dropping area or select the file. 
-                    CSV and XLS supported. For demo purposes the only two columns supported. Real applicatin \
-                    will suppost working with all the formats including databases.
+                    CSV and XLS supported. For demo purposes the only two columns supported. Real application \
+                    will support working with all the formats including databases.
                     """
                     ),
                     #dbc.Button("View details", color="secondary"),
@@ -79,14 +79,14 @@ body = dbc.Container(
                         id = 'dDown1',
                         options=[
                             {'label': 'Linear Regression', 'value': 'lr'},
-                            {'label': 'Supporting Vectors Regressor', 'value': 'svr'},
-                            {'label': 'Decision Tree Regressor', 'value': 'dt'}
+                            {'label': 'Supporting Vectors Regression', 'value': 'svr'},
+                            {'label': 'Decision Tree Regression', 'value': 'dt'}
                         ],
                         value='lr'
                     ),  
 
                     dbc.Input(id="inp1", placeholder="Type something...", type="number", debounce=True),
-                    html.Label('Predicred value'),
+                    html.Label('Predicted value'),
                     html.Div(id="text1"),
                 ],
                 md=4,

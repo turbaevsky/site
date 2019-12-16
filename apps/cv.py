@@ -63,15 +63,15 @@ body = dbc.Container(
                     html.H2("Image identification"),
                     html.P(
                         """
-                    There is a Computer Vision Machine Learning models presented here. You can make your choise to 
-                    classify the image based on your or pleloaded data.
+                    There is a Computer Vision Machine Learning models presented here. You can make your choice to 
+                    classify the image based on your or preloaded data.
                     You can put your image simply by dropping them into the dropping area or select the file. 
                     Real application supports all the formats including databases.
                     """
                     ),
                     #dbc.Button("View details", color="secondary"),
 
-                    html.Label('Predicred value'),
+                    html.Label('Predicted value'),
                     html.Div(id="recognized"),
                 ],
                 md=4,

@@ -55,7 +55,7 @@ body = dbc.Container(
         """
         ),
         dbc.Input(id="input_text", placeholder="Type something...", type="text", debounce=True, value = 'What a brilliant day!'),
-        html.Label('Predicred sentiment: '),
+        html.Label('Predicted sentiment: '),
         html.H4(id="predicted_sentiment", children = 'None'),
     ],
     ),
