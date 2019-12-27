@@ -4,7 +4,7 @@
 - inside app:
 
 app = dash.Dash(
-    /_/_name/_/_,
+    __name__,
     server=server,
     routes_pathname_prefix='/dash/'
 )
