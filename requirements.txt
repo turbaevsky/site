@@ -3,7 +3,7 @@ gunicorn==19.9.0
 dash_bootstrap_components
 pandas
 keras
-tensorflow==1.14.0
+tensorflow==2.9.3
 opencv-python
 imageai
 dash_daq
